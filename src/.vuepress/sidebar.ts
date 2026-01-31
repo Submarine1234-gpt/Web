@@ -22,5 +22,17 @@ export default sidebar({
       icon: "person-chalkboard",
       link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
     },
+    {
+      text: "演示",
+      icon: "demo",
+      prefix: "/demo/",
+      children: [
+        {
+          text: "加密页面",
+          icon: "lock",
+          link: "encrypt.html",
+        },
+      ],
+    },
   ],
 });

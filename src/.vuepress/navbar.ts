@@ -49,4 +49,10 @@ export default navbar([
     icon: "book",
     link: "https://theme-hope.vuejs.press/zh/",
   },
+  {
+    text: "关于我",
+    icon: "user",
+    link: "/about/",  
+
+  },
 ]);
