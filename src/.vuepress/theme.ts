@@ -29,6 +29,7 @@ export default hopeTheme({
   // 页脚
   footer: "默认页脚",
   displayFooter: true,
+  license: "MIT",
 
   // 博客相关
   blog: {
@@ -37,19 +38,19 @@ export default hopeTheme({
     intro: "https://github.com/Submarine1234-gpt",
     medias: {
       //Baidu: "https://example.com",
-      BiliBili: "https://example.com",
+      BiliBili: "https://space.bilibili.com/197520741?spm_id_from=333.1007.0.0",
       //Bitbucket: "https://example.com",
       //Dingding: "https://example.com",
       //Discord: "https://example.com",
       //Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
+      //Email: "op250520@gmail.com",
       //Evernote: "https://example.com",
       Facebook: "https://example.com",
       //Flipboard: "https://example.com",
       //Gitee: "https://example.com",
-      GitHub: "https://example.com",
+      GitHub: "https://github.com/Submarine1234-gpt",
       //Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
+      Gmail: "op250520@gmail.com",
       Instagram: "https://example.com",
       //Lark: "https://example.com",
       //Lines: "https://example.com",

@@ -2,17 +2,21 @@
 home: true
 layout: Blog
 icon: house
-title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+title: 主页
+bgImage: /assets/images/homebackgroud.jpg
+bgImageDark: /assets/images/homebackgroud.jpg
+heroAlt: 我的项目
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+heroImage: /flask.svg
+heroText: Submarine_Blog🚀
+
+tagline: 简简单单的记录生活小网站  <br> 希望开心😘
+
 projects:
   - icon: folder-open
     name: 项目名称
     desc: 项目详细描述
-    link: https://你的项目链接
-
+    link: homepage.html
   - icon: link
     name: 链接名称
     desc: 链接详细描述
@@ -38,7 +42,8 @@ projects:
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-footer: 自定义你的页脚文字
+footer: 自定义你的页脚文字 <br> Icon bySupalerk laipawatonfreeicons.io
+
 ---
 
 这是一个博客主页的案例。
