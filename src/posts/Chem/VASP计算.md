@@ -83,6 +83,18 @@ NSW = 0
 复制第一步的INCAR
 `ISTART` = 1
 `ICHARG` = 11
+### KPOINTS
+在第二步的文件夹中生成 `kpath.in`
+```bash
+vaspkit
+3
+303
+```
+将第二行数值改为25，数值越大越准
+复制此文件到第三步的文件夹中并重命名为`KPOINTS`
+
+### 函数
+复制第二步产生的`WAVECAR` `CHGCAR`
 
 ## 第四步：数据处理
 ```bash
