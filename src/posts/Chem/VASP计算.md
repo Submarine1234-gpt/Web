@@ -97,11 +97,7 @@ vaspkit
 复制第二步产生的`WAVECAR` `CHGCAR`
 
 ## 第四步：数据处理
-```bash
-vaspkit
-3
-302
-```
+
 ```bash
 vaspkit
 21
