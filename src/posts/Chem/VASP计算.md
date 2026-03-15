@@ -5,6 +5,7 @@ ico : pen
 
 ---
 
+[[toc]]
 # VASP计算手册
 VASP计算所需的材料有：
 1. `POSCAR` :  描述晶体结构的文件
