@@ -34,3 +34,13 @@ git config --globle user.name  "5700x"
 git config --globle user.email "1014071041@qq.com"
 ```
 随便写写得了，反正就我一个人。
+
+# 使用代理
+总所周知，在国内使用互联网是很麻烦的。
+```bash
+git config --global http.proxy http://127.0.0.1:7879
+git config --global https.proxy http://127.0.0.1:7879
+
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
