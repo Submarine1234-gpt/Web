@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "docs:build": "vuepress-vite build src",
-    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
-    "docs:dev": "vuepress-vite dev src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache --port 8080",
+    "docs:dev": "vuepress-vite dev src --port 8080",
     "docs:update-package": "npx vp-update"
   },
   "devDependencies": {
