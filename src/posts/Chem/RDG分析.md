@@ -2,6 +2,7 @@
 author : Submarine
 date : 2026-04-21
 ico : pen
+title : RDG分析
 
 ---
 #非共价作用力分析#
@@ -13,3 +14,6 @@ VASP的CHGCAR
 RDG图分析
 负值区是吸引力
 正值区是排斥力
+
+# 参考对象
+卢天老师的文章 [使用Multiwfn图形化研究弱相互作用](http://sobereva.com/68)
