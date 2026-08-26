@@ -30,8 +30,8 @@ git config user.email
 ```
 新下载的肯定啥也没有啊
 ```bash
-git config --globle user.name  "5700x"
-git config --globle user.email "1014071041@qq.com"
+git config --global user.name  "[Username]"
+git config --global user.email "[EmailAddress]"
 ```
 随便写写得了，反正就我一个人。
 
