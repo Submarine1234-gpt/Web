@@ -25,7 +25,7 @@ sudo mv Antigravity\ IDE /opt
 ```
 然后创建任务菜单的配置文件
 ```bash
-cat > /usr/share/applications/antigravity.desktop << 'EOF'
+sudo cat > /usr/share/applications/antigravity.desktop << 'EOF'
 [Desktop Entry]
 Type=Application
 Name=Antigravity
@@ -38,7 +38,7 @@ EOF
 ```
 修改运行权限还有更新菜单
 ```bash
-chmod +x /usr/share/applications/antigravity.desktop
-update-desktop-database /usr/share/applications/
+sudo chmod +x /usr/share/applications/antigravity.desktop
+sudo update-desktop-database /usr/share/applications/
 ```
 接着在菜单右键软件图标，在桌面上生成快捷方式就可以了。
