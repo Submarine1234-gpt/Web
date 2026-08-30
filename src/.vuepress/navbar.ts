@@ -52,7 +52,7 @@ export default navbar([
   {
     text: "关于我",
     icon: "user",
-    link: "/about/",  
+    link: "homepage.html",  
 
   },
 ]);
