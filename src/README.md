@@ -3,8 +3,8 @@ home: true
 layout: Blog
 icon: house
 title: 主页
-bgImage: /assets/images/homebackgroud.jpg
-bgImageDark: /assets/images/homebackgroud.jpg
+bgImage: /assets/images/home/homebackgroud.jpg
+bgImageDark: /assets/images/home/homebackgroud.jpg
 heroAlt: 我的项目
 heroFullScreen: true
 heroImage: /flask.svg
