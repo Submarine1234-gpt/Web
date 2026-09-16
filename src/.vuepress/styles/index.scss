@@ -1,3 +1,15 @@
 // place your custom styles here
 
+// 让 mermaid 图表默认展开，不折叠
+.md-enhance-mermaid {
+  // 强制显示渲染后的图表容器
+  .mermaid-content {
+    display: block !important;
+  }
+  // 隐藏折叠/展开按钮（可选，如果不想要按钮的话去掉注释）
+  // .toggle-button {
+  //   display: none;
+  // }
+}
+
 

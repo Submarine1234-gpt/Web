@@ -8,7 +8,7 @@ export default hopeTheme({
 
   author: {
     name: "Submarine",
-    
+
     url: "https://github.com/Submarine1234-gpt",
   },
 
@@ -33,7 +33,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    
+
     description: "一个不爱学化学的化学学习者",
     intro: "https://github.com/Submarine1234-gpt",
     medias: {
@@ -128,12 +128,12 @@ export default hopeTheme({
     vPre: true,
 
     // 取消注释它们如果你需要 TeX 支持
-    // math: {
-    //   // 启用前安装 katex
-    //   type: "katex",
-    //   // 或者安装 @mathjax/src
-    //   type: "mathjax",
-    // },
+    math: {
+      //   // 启用前安装 katex
+      type: "katex",
+      //   // 或者安装 @mathjax/src
+      //   type: "mathjax",
+    },
 
     // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
     // revealjs: {
@@ -152,7 +152,7 @@ export default hopeTheme({
     // flowchart: true,
 
     // 在启用之前安装 mermaid
-    // mermaid: true,
+    mermaid: true,
 
     // playground: {
     //   presets: ["ts", "vue"],
